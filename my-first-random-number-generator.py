@@ -5,7 +5,7 @@ range2 = int(input('largest number:'))
 a = 1
 
 while a == 1:
-    number = random.randint (0,2500)
+    number = random.randint (0,10000)
     if number == 0 and number >= range1 and number <= range2:
         print('0')
         a = 2
